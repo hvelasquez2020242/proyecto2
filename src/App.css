@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: aqua;
+}
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+#nombreColor{
+    background: gray;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.container{
+    border-color: red;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.logoLevelUp {
+    width: 100%;
+    align-items: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-levelUp {
+    height: 350px;
+}
+.nombreColor{
+    color: #ffff;
+    text-align: center;
+    font-size: 80px;
+}
